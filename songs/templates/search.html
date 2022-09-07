@@ -1,0 +1,10 @@
+
+<h1>Search Results</h1>
+
+<ul>
+  {% for song in songs %}
+    <li>
+      {{ song.name }}, {{ song.singer }}
+    </li>
+  {% endfor %}
+</ul>
